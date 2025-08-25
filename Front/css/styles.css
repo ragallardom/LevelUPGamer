@@ -26,12 +26,14 @@ input, select, textarea{ width:100%; padding:8px; border-radius:8px; border:1px 
 
 /* Estilos de la barra de navegación hecha con bootstrap */
 .navbar{ background:var(--bg); border-bottom:1px solid var(--border); }
-.navbar-brand img{ height:40px; }
+.navbar-brand img{ height:40px; transform:scale(1.5); transform-origin:left center; }
 .navbar-nav .nav-link{ color:var(--accent); padding:6px 10px; border-radius:8px; }
 .navbar-nav .nav-link:hover{ background:#0e223a; color:var(--accent); }
 .navbar-toggler{ border-color:var(--accent); }
 .navbar-toggler-icon{ filter:invert(1); }
-.navbar-nav .login-btn{ background:var(--accent); color:#fff !important; }
-.navbar-nav .login-btn:hover{ background:#0e223a; color:#fff !important; }
+.navbar-nav .login-btn,
+.navbar-nav .register-btn{ background:var(--accent); color:#fff !important; }
+.navbar-nav .login-btn:hover,
+.navbar-nav .register-btn:hover{ background:#0e223a; color:#fff !important; }
 .navbar-nav .cart-icon{ position:relative; color:var(--accent); }
 .navbar-nav .cart-icon .badge{ position:absolute; top:-4px; right:-10px; }
