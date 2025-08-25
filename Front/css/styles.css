@@ -1,4 +1,5 @@
 
+/* Estilos generales */
 :root{ --bg:#000; --fg:#fff; --muted:#cfcfcf; --accent:#1E90FF; --accent2:#39FF14; --border:#1f1f1f; }
 *{ box-sizing:border-box; }
 body{ margin:0; font-family: Arial, Helvetica, sans-serif; background:var(--bg); color:var(--fg); }
@@ -22,3 +23,11 @@ input, select, textarea{ width:100%; padding:8px; border-radius:8px; border:1px 
 .price{ color:var(--accent2); font-weight:bold; }
 .badge{ background:var(--accent); color:#fff; padding:2px 8px; border-radius:999px; font-size:12px; }
 .err{ color:#ff6b6b; font-size:13px; }
+
+/* Estilos de la barra de navegación hecha con bootstrap */
+.navbar{ background:var(--bg); border-bottom:1px solid var(--border); }
+.navbar-brand img{ height:40px; }
+.navbar-nav .nav-link{ color:var(--accent); padding:6px 10px; border-radius:8px; }
+.navbar-nav .nav-link:hover{ background:#0e223a; color:var(--accent); }
+.navbar-toggler{ border-color:var(--accent); }
+.navbar-toggler-icon{ filter:invert(1); }
