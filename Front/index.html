@@ -3,8 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+<header>
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <strong><a href="index.html"><img src="img/index/logo.png" alt="Logo"></a></strong>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="blogs.html">Blogs</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="login.html">Iniciar sesion</a>
+                <a href="carrito.html">Carrito</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="card">
+        <h1>Bienvenido a Level-Up Gamer</h1>
+        <p>Consolas, accesorios, PCs gamers y más. Paleta simple y navegación básica.</p>
+        <p><a class="btn" href="productos.html">Ver productos</a></p>
+    </section>
+    <h2>Destacados</h2>
+    <div id="destacados" class="grid"></div>
+    <script>
+        const grid = document.getElementById('destacados ');
+        const prods = productsList().slice(0, 6);
+        grid.innerHTML = prods.map(p => `
+            <div class="card">
+                <img class="resp" src="https://picsum.photos/seed/${p.code }/600/400" alt="${p.name}">
+                <h3>${p.name}</h3>
+                <div class="price">${money(p.price)}</div>
+                <p><a class="btn" href="producto.html?id=${encodeURIComponent(p.id)}">Ver</a></p>
+            </div>
+        `).join('');
+    </script>
+</main>
+
+<footer>
+    <div class="container">© 2025 Level‑Up Gamer - Todos los derechos reservados</div>
+</footer>
 
 </body>
 </html>
