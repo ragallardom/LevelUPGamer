@@ -37,7 +37,11 @@ footer {
     border-top: 1px solid var(--border);
     border-bottom: none;
     color: var(--muted);
-    margin-top: 24px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
 }
 
 .container {

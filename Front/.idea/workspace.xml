@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f549f828-37eb-4588-83d2-228fe841c912" name="Changes" comment="Se ajustan colores de css acorde a lo que solicita el negocio">
+    <list default="true" id="f549f828-37eb-4588-83d2-228fe841c912" name="Changes" comment="Se agrega sección de productos desctacados en inicio">
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ragallardom"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ragallardom&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ragallardom/LevelUPGamer.git",
-    "accountId": "89624e1b-38f6-47f2-a9c3-8d28790077d3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ragallardom/LevelUPGamer.git&quot;,
+    &quot;accountId&quot;: &quot;89624e1b-38f6-47f2-a9c3-8d28790077d3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -89,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756099531865</updated>
-      <workItem from="1756099533593" duration="11444000" />
+      <workItem from="1756099533593" duration="16044000" />
     </task>
     <task id="LOCAL-00001" summary="Se modifica index agregando bootstrap y el css para mantener los estilos">
       <option name="closed" value="true" />
@@ -123,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756141557515</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Se agrega carrusel y se mejora presentación">
+      <option name="closed" value="true" />
+      <created>1756142827441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756142827441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Se agrega sección de productos desctacados en inicio">
+      <option name="closed" value="true" />
+      <created>1756181789792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756181789792</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +151,8 @@
     <MESSAGE value="Se agregan algunos cambios en la navbar" />
     <MESSAGE value="Se actualiza logo, boton de registrar usuario y carrito de compras" />
     <MESSAGE value="Se ajustan colores de css acorde a lo que solicita el negocio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se ajustan colores de css acorde a lo que solicita el negocio" />
+    <MESSAGE value="Se agrega carrusel y se mejora presentación" />
+    <MESSAGE value="Se agrega sección de productos desctacados en inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega sección de productos desctacados en inicio" />
   </component>
 </project>
