@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f549f828-37eb-4588-83d2-228fe841c912" name="Changes" comment="">
+    <list default="true" id="f549f828-37eb-4588-83d2-228fe841c912" name="Changes" comment="Se ajustan colores de css acorde a lo que solicita el negocio">
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -23,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ragallardom"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ragallardom/LevelUPGamer.git",
+    "accountId": "89624e1b-38f6-47f2-a9c3-8d28790077d3"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -77,11 +89,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756099531865</updated>
-      <workItem from="1756099533593" duration="5259000" />
+      <workItem from="1756099533593" duration="11444000" />
     </task>
+    <task id="LOCAL-00001" summary="Se modifica index agregando bootstrap y el css para mantener los estilos">
+      <option name="closed" value="true" />
+      <created>1756136022486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756136022486</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se agregan algunos cambios en la navbar">
+      <option name="closed" value="true" />
+      <created>1756139617077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756139617077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se actualiza logo, boton de registrar usuario y carrito de compras">
+      <option name="closed" value="true" />
+      <created>1756140755711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756140755711</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Se ajustan colores de css acorde a lo que solicita el negocio">
+      <option name="closed" value="true" />
+      <created>1756141557515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756141557515</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se modifica index agregando bootstrap y el css para mantener los estilos" />
+    <MESSAGE value="Se agregan algunos cambios en la navbar" />
+    <MESSAGE value="Se actualiza logo, boton de registrar usuario y carrito de compras" />
+    <MESSAGE value="Se ajustan colores de css acorde a lo que solicita el negocio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se ajustan colores de css acorde a lo que solicita el negocio" />
   </component>
 </project>
