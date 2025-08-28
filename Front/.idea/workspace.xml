@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f549f828-37eb-4588-83d2-228fe841c912" name="Changes" comment="idk">
-      <change afterPath="$PROJECT_DIR$/assets/img/contacto/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contacto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/components/navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/utils/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nosotros.html" beforeDir="false" afterPath="$PROJECT_DIR$/nosotros.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/registro.html" afterDir="false" />
-    </list>
+    <list default="true" id="f549f828-37eb-4588-83d2-228fe841c912" name="Changes" comment="Se agrega js para componentes navbar, footer y utilidad para productos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -104,7 +94,7 @@
       <updated>1756099531865</updated>
       <workItem from="1756099533593" duration="20700000" />
       <workItem from="1756255820246" duration="91000" />
-      <workItem from="1756255929826" duration="10158000" />
+      <workItem from="1756255929826" duration="10471000" />
     </task>
     <task id="LOCAL-00001" summary="Se modifica index agregando bootstrap y el css para mantener los estilos">
       <option name="closed" value="true" />
@@ -178,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756338506158</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Se agrega js para componentes navbar, footer y utilidad para productos">
+      <option name="closed" value="true" />
+      <created>1756345906265</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756345906265</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +192,7 @@
     <MESSAGE value="Se agrega pagina de registro y login" />
     <MESSAGE value="Se ordenan carpetas y se agrega página &quot;nosotros&quot;" />
     <MESSAGE value="idk" />
-    <option name="LAST_COMMIT_MESSAGE" value="idk" />
+    <MESSAGE value="Se agrega js para componentes navbar, footer y utilidad para productos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega js para componentes navbar, footer y utilidad para productos" />
   </component>
 </project>
