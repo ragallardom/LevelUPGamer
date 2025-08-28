@@ -18,8 +18,10 @@ function renderProducts() {
         col.className = 'col';
         col.innerHTML = `
       <div class="card h-100 text-center">
-        <img src="${product.image}" alt="${product.alt}" class="resp">
-        <h3>${product.name}</h3>
+        <a href="detalle-producto.html?id=${product.id}">
+          <img src="${product.image}" alt="${product.alt}" class="resp">
+        </a>
+        <h3><a href="detalle-producto.html?id=${product.id}" class="text-decoration-none">${product.name}</a></h3>
         <p class="price">${product.price}</p>
         <button class="btn btn-primary" disabled>Añadir al carrito</button>
       </div>

@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f549f828-37eb-4588-83d2-228fe841c912" name="Changes" comment="idk">
+    <list default="true" id="f549f828-37eb-4588-83d2-228fe841c912" name="Changes" comment="Se agrega productos y su js">
+      <change afterPath="$PROJECT_DIR$/detalle-producto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/data/productos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/utils/detalle-producto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/utils/productos.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/utils/productos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/productos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +83,7 @@
       <recent name="C:\Users\ragal\OneDrive\Documentos\Proyectos\LevelUPGamer\Front\Img\index" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ragal\OneDrive\Documentos\Proyectos\LevelUPGamer\Front\js\data" />
       <recent name="C:\Users\ragal\OneDrive\Documentos\Proyectos\LevelUPGamer\Front\assets" />
       <recent name="C:\Users\ragal\OneDrive\Documentos\Proyectos\LevelUPGamer\Front\css" />
     </key>
@@ -97,7 +105,7 @@
       <workItem from="1756099533593" duration="20700000" />
       <workItem from="1756255820246" duration="91000" />
       <workItem from="1756255929826" duration="12331000" />
-      <workItem from="1756412066801" duration="810000" />
+      <workItem from="1756412066801" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="Se modifica index agregando bootstrap y el css para mantener los estilos">
       <option name="closed" value="true" />
@@ -187,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756345924737</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Se agrega productos y su js">
+      <option name="closed" value="true" />
+      <created>1756413064093</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756413064093</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +220,7 @@
     <MESSAGE value="Se ordenan carpetas y se agrega página &quot;nosotros&quot;" />
     <MESSAGE value="Se agrega js para componentes navbar, footer y utilidad para productos" />
     <MESSAGE value="idk" />
-    <option name="LAST_COMMIT_MESSAGE" value="idk" />
+    <MESSAGE value="Se agrega productos y su js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega productos y su js" />
   </component>
 </project>
