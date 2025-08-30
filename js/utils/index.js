@@ -1,7 +1,9 @@
+const scriptSrc = document.currentScript?.src || '';
+const rootPath = scriptSrc.split('/js/utils')[0];
+
 function renderFeaturedProducts() {
     const container = document.getElementById('featured-products');
     if (!container) return;
-    const rootPath = document.currentScript.src.split('/js/utils')[0];
 
     const featuredProducts = products.slice(0, 8);
 
