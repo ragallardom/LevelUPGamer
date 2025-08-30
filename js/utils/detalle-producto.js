@@ -3,13 +3,14 @@ function renderProductDetail() {
     const id = parseInt(params.get('id'), 10);
     const product = products.find(p => p.id === id) || products[0];
     if (!product) return;
+    const rootPath = document.currentScript.src.split('/js/utils')[0];
 
     const imgEl = document.getElementById('product-image');
     const nameEl = document.getElementById('product-name');
     const priceEl = document.getElementById('product-price');
     const descEl = document.getElementById('product-description');
 
-    imgEl.src = product.image;
+    imgEl.src = `${rootPath}/${product.image}`;
     imgEl.alt = product.alt;
     nameEl.textContent = product.name;
     priceEl.textContent = product.price;
@@ -21,10 +22,10 @@ function renderProductDetail() {
         col.className = 'col';
         col.innerHTML = `
       <div class="card h-100 text-center">
-        <a href="detalle-producto.html?id=${rel.id}">
-          <img src="${rel.image}" alt="${rel.alt}" class="resp">
+        <a href="${rootPath}/html_tienda/detalle-producto.html?id=${rel.id}">
+          <img src="${rootPath}/${rel.image}" alt="${rel.alt}" class="resp">
         </a>
-        <h3><a href="detalle-producto.html?id=${rel.id}" class="text-decoration-none">${rel.name}</a></h3>
+        <h3><a href="${rootPath}/html_tienda/detalle-producto.html?id=${rel.id}" class="text-decoration-none">${rel.name}</a></h3>
         <p class="price">${rel.price}</p>
       </div>
     `;
