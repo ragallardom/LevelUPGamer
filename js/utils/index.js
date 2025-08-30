@@ -1,6 +1,7 @@
 function renderFeaturedProducts() {
     const container = document.getElementById('featured-products');
     if (!container) return;
+    const rootPath = document.currentScript.src.split('/js/utils')[0];
 
     const featuredProducts = products.slice(0, 8);
 
@@ -9,10 +10,10 @@ function renderFeaturedProducts() {
         col.className = 'col';
         col.innerHTML = `
       <div class="card h-100 text-center">
-        <a href="html_tienda/detalle-producto.html?id=${product.id}">
-          <img src="${product.image}" alt="${product.alt}" class="resp">
+        <a href="${rootPath}/html_tienda/detalle-producto.html?id=${product.id}">
+          <img src="${rootPath}/${product.image}" alt="${product.alt}" class="resp">
         </a>
-        <h3><a href="html_tienda/detalle-producto.html?id=${product.id}" class="text-decoration-none">${product.name}</a></h3>
+        <h3><a href="${rootPath}/html_tienda/detalle-producto.html?id=${product.id}" class="text-decoration-none">${product.name}</a></h3>
         <p>${product.description}</p>
         <p class="price">${product.price}</p>
       </div>
