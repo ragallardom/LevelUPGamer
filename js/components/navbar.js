@@ -5,7 +5,7 @@ if (navbarContainer) {
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark flex-grow-1">
-            <a class="navbar-brand" href="${rootPath}/index.html"><img src="${rootPath}/assets/img/index/logo.png" alt="Logo"></a>
+            <a class="navbar-brand" href="${rootPath}/index.html"><img src="${rootPath}/assets/img/logo_letras_gb_negro.png" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

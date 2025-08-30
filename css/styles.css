@@ -234,3 +234,31 @@ input, select, textarea {
     background: #fff;
     color: #000;
 }
+
+.alert-danger {
+    background-color: var(--bg);
+    color: #ff6b6b;
+    border: 1px solid #ff6b6b;
+}
+
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: var(--bg);
+    border-right: 1px solid var(--border);
+}
+
+.sidebar .nav-link {
+    color: var(--accent);
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.sidebar .nav-link:hover {
+    background: var(--accent);
+    color: #fff;
+}
+
+.sidebar .logo {
+    height: 40px;
+}
