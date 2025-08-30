@@ -10,7 +10,7 @@ if (navbarContainer) {
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto align-items-center">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="front/index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
                     <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>

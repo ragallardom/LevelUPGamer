@@ -9,10 +9,10 @@ function renderFeaturedProducts() {
         col.className = 'col';
         col.innerHTML = `
       <div class="card h-100 text-center">
-        <a href="detalle-producto.html?id=${product.id}">
+        <a href="tienda/detalle-producto.html?id=${product.id}">
           <img src="${product.image}" alt="${product.alt}" class="resp">
         </a>
-        <h3><a href="detalle-producto.html?id=${product.id}" class="text-decoration-none">${product.name}</a></h3>
+        <h3><a href="tienda/detalle-producto.html?id=${product.id}" class="text-decoration-none">${product.name}</a></h3>
         <p>${product.description}</p>
         <p class="price">${product.price}</p>
       </div>
