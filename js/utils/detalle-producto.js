@@ -1,9 +1,11 @@
+const scriptSrc = document.currentScript?.src || '';
+const rootPath = scriptSrc.split('/js/utils')[0];
+
 function renderProductDetail() {
     const params = new URLSearchParams(window.location.search);
     const id = parseInt(params.get('id'), 10);
     const product = products.find(p => p.id === id) || products[0];
     if (!product) return;
-    const rootPath = document.currentScript.src.split('/js/utils')[0];
 
     const imgEl = document.getElementById('product-image');
     const nameEl = document.getElementById('product-name');

@@ -1,7 +1,9 @@
+const scriptSrc = document.currentScript?.src || '';
+const rootPath = scriptSrc.split('/js/utils')[0];
+
 function renderProducts() {
     const container = document.getElementById('product-list');
     if (!container) return;
-    const rootPath = document.currentScript.src.split('/js/utils')[0];
 
     products.forEach(product => {
         const col = document.createElement('div');
