@@ -15,11 +15,16 @@ function renderProducts() {
         </a>
         <h3><a href="${rootPath}/html_tienda/detalle-producto.html?id=${product.id}" class="text-decoration-none">${product.name}</a></h3>
         <p class="price">${product.price}</p>
-        <button class="btn btn-primary" disabled>Añadir al carrito</button>
+        <button class="btn btn-primary add-cart">Añadir al carrito</button>
       </div>
     `;
+        const btn = col.querySelector('.add-cart');
+        btn.addEventListener('click', () => addToCart(product));
         container.appendChild(col);
     });
 }
 
-document.addEventListener('DOMContentLoaded', renderProducts);
+document.addEventListener('DOMContentLoaded', () => {
+    renderProducts();
+    updateCartCount();
+});

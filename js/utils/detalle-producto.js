@@ -18,6 +18,14 @@ function renderProductDetail() {
     priceEl.textContent = product.price;
     descEl.textContent = product.description;
 
+    const addBtn = document.getElementById('add-to-cart');
+    const qtyInput = document.getElementById('quantity');
+    addBtn.addEventListener('click', () => {
+        const qty = parseInt(qtyInput.value, 10);
+        addToCart(product, qty);
+    });
+
+
     const relatedContainer = document.getElementById('related-products');
     products.filter(p => p.id !== product.id).slice(0, 4).forEach(rel => {
         const col = document.createElement('div');
@@ -35,4 +43,7 @@ function renderProductDetail() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', renderProductDetail);
+document.addEventListener('DOMContentLoaded', () => {
+    renderProductDetail();
+    updateCartCount();
+});

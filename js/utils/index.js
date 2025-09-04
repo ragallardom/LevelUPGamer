@@ -24,4 +24,7 @@ function renderFeaturedProducts() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', renderFeaturedProducts);
+document.addEventListener('DOMContentLoaded', () => {
+    renderFeaturedProducts();
+    updateCartCount();
+});
