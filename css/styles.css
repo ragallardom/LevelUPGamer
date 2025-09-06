@@ -171,6 +171,28 @@ input, select, textarea {
     font-size: 13px;
 }
 
+/* Estilos del carrito */
+.cart-item {
+    border-bottom: 1px solid var(--border);
+    padding: 10px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.cart-summary .form-control {
+    background: #0d0d0d;
+    border: 1px solid var(--border);
+    color: #fff;
+}
+
+
 /* Estilos de la barra de navegación hecha con bootstrap */
 .navbar {
     background: var(--bg);

@@ -14,7 +14,20 @@
 
 <main class="container my-5">
     <h2 class="mb-4">Carrito</h2>
-    <div id="cart-container"></div>
+    <div class="row g-4">
+        <div class="col-lg-8" id="cart-items"></div>
+        <div class="col-lg-4">
+            <div class="card p-3 cart-summary">
+                <h4 class="mb-3">Resumen</h4>
+                <p>Total: <span id="cart-total" class="price">$0.00</span></p>
+                <div class="mb-3">
+                    <label for="discount" class="form-label">Código de descuento</label>
+                    <input type="text" id="discount" class="form-control" placeholder="Ingresa tu código">
+                </div>
+                <button class="btn w-100">Pagar</button>
+            </div>
+        </div>
+    </div>
 </main>
 
 <div id="footer"></div>

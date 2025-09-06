@@ -27,7 +27,7 @@ function addToCart(product, quantity = 1) {
     if (existing) {
         existing.quantity += qty;
     } else {
-        cart.push({ id: product.id, name: product.name, price: product.price, quantity: qty });
+        cart.push({ id: product.id, name: product.name, price: product.price, image: product.image, quantity: qty });
     }
     saveCart(cart);
     updateCartCount();
