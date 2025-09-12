@@ -35,86 +35,14 @@
                     <th>Stock</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>JM001</td>
-                    <td>Juegos de Mesa</td>
-                    <td>Catan</td>
-                    <td>$29.990 CLP</td>
-                    <td>15</td>
-                </tr>
-                <tr>
-                    <td>JM002</td>
-                    <td>Juegos de Mesa</td>
-                    <td>Carcassonne</td>
-                    <td>$24.990 CLP</td>
-                    <td>8</td>
-                </tr>
-                <tr>
-                    <td>AC001</td>
-                    <td>Accesorios</td>
-                    <td>Controlador Inalámbrico Xbox Series X</td>
-                    <td>$59.990 CLP</td>
-                    <td>20</td>
-                </tr>
-                <tr>
-                    <td>AC002</td>
-                    <td>Accesorios</td>
-                    <td>Auriculares Gamer HyperX Cloud II</td>
-                    <td>$79.990 CLP</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>CO001</td>
-                    <td>Consolas</td>
-                    <td>PlayStation 5</td>
-                    <td>$549.990 CLP</td>
-                    <td>12</td>
-                </tr>
-                <tr>
-                    <td>CG001</td>
-                    <td>Computadores Gamers</td>
-                    <td>PC Gamer ASUS ROG Strix</td>
-                    <td>$1.299.990 CLP</td>
-                    <td>7</td>
-                </tr>
-                <tr>
-                    <td>SG001</td>
-                    <td>Sillas Gamers</td>
-                    <td>Silla Gamer Secretlab Titan</td>
-                    <td>$349.990 CLP</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td>MS001</td>
-                    <td>Mouse</td>
-                    <td>Mouse Gamer Logitech G502 HERO</td>
-                    <td>$49.990 CLP</td>
-                    <td>25</td>
-                </tr>
-                <tr>
-                    <td>MP001</td>
-                    <td>Mousepad</td>
-                    <td>Mousepad Razer Goliathus Extended Chroma</td>
-                    <td>$29.990 CLP</td>
-                    <td>18</td>
-                </tr>
-                <tr>
-                    <td>PP001</td>
-                    <td>Poleras Personalizadas</td>
-                    <td>Polera Gamer Personalizada 'Level-Up'</td>
-                    <td>$14.990 CLP</td>
-                    <td>30</td>
-                </tr>
-                </tbody>
+                <tbody id="tbodyProductos"></tbody>
             </table>
+
+        <<div class="mt-3 d-flex gap-2">
+            <a class="btn btn-primary" href="producto-form.html"><i class="bi bi-plus-circle"></i> Agregar producto</a>
         </div>
-        <div class="mt-3">
-            <button id="edit-product-btn" class="btn btn-secondary me-2" type="button">Editar producto</button>
-            <button id="add-product-btn" class="btn btn-primary me-2" type="button">Agregar producto</button>
-            <button id="show-product-btn" class="btn btn-info" type="button">Mostrar producto</button>
-        </div>
-        <form id="product-form" class="mt-3 d-none">
+
+            <form id="product-form" class="mt-3 d-none">
             <h2 id="form-title">Nuevo Producto</h2>
             <div class="row g-3">
                 <div class="col-md-6">
@@ -177,5 +105,8 @@
         document.getElementById('form-title').textContent = 'Editar Producto';
     });
 </script>
+<!-- 1) tu archivo con los productos -->
+<script src="../js/data/productos.js"></script><!-- ajusta la ruta: ../ o ./ según tu árbol -->
+<script type="module" src="../js/pages/render-tabla-productos.js"></script>
 </body>
 </html>
